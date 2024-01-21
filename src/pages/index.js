@@ -6,7 +6,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
-import profilePic from "../../public/images/profile/developer-pic-1.png";
+import profilePic from "../../public/images/profile/developer-pic-1.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 
@@ -29,11 +29,11 @@ export default function Home() {
       >
         <Layout className="!pt-0 md:!pt-16 sm:!pt-16">
           <div className="flex w-full items-start justify-between md:flex-col">
-            <div className="w-1/2 lg:hidden md:inline-block md:w-full">
+            <div className="w-1/2  lg:hidden md:inline-block md:w-full">
               <Image
                 src={profilePic}
-                alt="CodeBucks"
-                className="h-auto w-full"
+                alt="Enrique Rivera"
+                className="h-1/2 w-auto rounded-full"
                 sizes="100vw"
                 priority
               />
