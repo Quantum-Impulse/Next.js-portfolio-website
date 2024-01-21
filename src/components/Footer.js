@@ -23,13 +23,6 @@ const Footer = () => {
           </Link>
         </div>
 
-        <Link
-          href="https://devdreaming.com/about"
-          target="_blank"
-          className="underline underline-offset-2"
-        >
-          Say Hello
-        </Link>
       </Layout>
     </footer>
   );
