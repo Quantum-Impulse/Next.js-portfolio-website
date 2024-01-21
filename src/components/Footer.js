@@ -13,13 +13,13 @@ const Footer = () => {
         <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
 
         <div className="flex items-center lg:py-2">
-          Built with <span className="text-primary text-2xl px-1 dark:text-primaryDark">&#9825;	</span> by&nbsp;
+          Built With <span className="text-primary text-2xl px-1 dark:text-primaryDark">&#9825;	</span> by&nbsp;
           <Link
-            href="https://devdreaming.com"
+            href="https://www.linkedin.com/in/enrique-rivera-jr/"
             target="_blank"
             className="underline underline-offset-2"
           >
-            CodeBucks
+            Enrique R. Jr.
           </Link>
         </div>
 
