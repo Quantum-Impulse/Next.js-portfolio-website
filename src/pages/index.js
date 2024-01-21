@@ -28,7 +28,7 @@ export default function Home() {
         className={`flex min-h-screen items-center text-dark dark:text-light sm:items-start`}
       >
         <Layout className="!pt-0 md:!pt-16 sm:!pt-16">
-          <div className="flex w-full items-start justify-between md:flex-col">
+          <div className="flex w-full items-start justify-between md:flex-col md:items-center">
             <div className="w-1/2  lg:hidden md:inline-block md:w-full">
               <Image
                 src={profilePic}
