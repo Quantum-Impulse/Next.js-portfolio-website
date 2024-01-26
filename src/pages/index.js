@@ -1,5 +1,5 @@
 import AnimatedText from "@/components/AnimatedText";
-import { HireMe } from "@/components/HireMe";
+import { Contact } from "@/components/Contact";
 import { LinkArrow } from "@/components/Icons";
 import Layout from "@/components/Layout";
 import Head from "next/head";
@@ -40,11 +40,11 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Bridging the Worlds of Physics and Software: Engineering the Future with Innovative Code and Design."
+                text="Bridging the Worlds of Physics and Software Engineering"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              Delving into the universe of programming and physics, I craft digital solutions that embody precision, creativity, and the relentless pursuit of knowledge. Explore my projects showcasing my expertise web development and data scienceßß.
+              Delving into the universe of programming and physics, I craft digital solutions that embody precision, creativity, and the relentless pursuit of knowledge. Explore my projects showcasing my expertise web development and data science.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
@@ -75,7 +75,7 @@ export default function Home() {
           </div>
         </Layout>
 
-        <HireMe />
+        <Contact />
         <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
           {/* <Image
             className="relative h-auto w-full"
