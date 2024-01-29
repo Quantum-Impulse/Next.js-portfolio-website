@@ -108,20 +108,22 @@ const Navbar = () => {
         >
           <TwitterIcon />
         </motion.a> */}
+
         <motion.a
           target={"_blank"}
           className="w-6 mx-3"
-          href="#"
+          href="https://github.com/Quantum-Impulse"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
           aria-label="Checkout my github profile"
         >
           <GithubIcon />
         </motion.a>
+
         <motion.a
           target={"_blank"}
           className="w-6 mx-3"
-          href="#"
+          href="https://www.linkedin.com/in/enrique-rivera-jr/"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
           aria-label="Checkout my linkedin profile"
