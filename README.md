@@ -14,6 +14,8 @@ This is the repository for my personal website. It showcases my portfolio, proje
 - Fonts from https://fonts.google.com/ 
 - Icons from https://iconify.design/ 
 - LightBulb Svg from https://lukaszadam.com/illustrations
+- svg to svgr from https://react-svgr.com/playground/
+
 
 ## Demo
 
