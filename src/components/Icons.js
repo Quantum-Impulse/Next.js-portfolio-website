@@ -431,9 +431,7 @@ export const CircularText = ({ className, ...rest }) => (
 
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={1417.333}
-    height={1417.333}
-    viewBox="0 0 1063 1063"
+    viewBox="-230 -230 1500 1500"
     className={`w-full h-auto ${className}`}
     {...rest}
   >
