@@ -87,19 +87,18 @@ const Navbar = () => {
         <span className={`bg-dark dark:bg-light block h-0.5 w-6 rounded-sm transition-all duration-300 ease-out ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
       </button>
 
-      <div className="w-full flex justify-between items-center lg:hidden"
-      >
+      <div className="w-full flex justify-between items-center lg:hidden">
       <nav className="flex items-center justify-center">
         <CustomLink className="mr-4" href="/" title="Home" />
         <CustomLink className="mx-4" href="/about" title="About" />
         <CustomLink className="mx-4" href="/projects" title="Projects" />
-        <CustomLink className="ml-4" href="/articles" title="Articles" />
+        {/* <CustomLink className="ml-4" href="/articles" title="Articles" /> */}
       </nav>
       <nav
         className="flex items-center justify-center flex-wrap lg:mt-2
       "
       >
-        <motion.a
+        {/* <motion.a
           target={"_blank"}
           className="w-6 mr-3"
           href="#"
@@ -108,7 +107,7 @@ const Navbar = () => {
           aria-label="Checkout my twitter profile"
         >
           <TwitterIcon />
-        </motion.a>
+        </motion.a> */}
         <motion.a
           target={"_blank"}
           className="w-6 mx-3"
@@ -129,7 +128,8 @@ const Navbar = () => {
         >
           <LinkedInIcon />
         </motion.a>
-        <motion.a
+
+        {/* <motion.a
           target={"_blank"}
           className="w-6 mx-3 bg-light rounded-full"
           href="#"
@@ -138,8 +138,9 @@ const Navbar = () => {
           aria-label="Checkout my pinterest profile"
         >
           <PinterestIcon />
-        </motion.a>
-        <motion.a
+        </motion.a> */}
+
+        {/* <motion.a
           target={"_blank"}
           className="w-6 mx-3"
           href="#"
@@ -148,7 +149,7 @@ const Navbar = () => {
           aria-label="Checkout my dribbble profile"
         >
           <DribbbleIcon />
-        </motion.a>
+        </motion.a> */}
 
         <button
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
@@ -179,13 +180,13 @@ const Navbar = () => {
         <CustomMobileLink toggle={handleClick} className="mr-4 lg:m-0 lg:my-2" href="/" title="Home" />
         <CustomMobileLink toggle={handleClick} className="mx-4 lg:m-0 lg:my-2" href="/about" title="About" />
         <CustomMobileLink toggle={handleClick} className="mx-4 lg:m-0 lg:my-2" href="/projects" title="Projects" />
-        <CustomMobileLink toggle={handleClick} className="ml-4 lg:m-0 lg:my-2" href="/articles" title="Articles" />
+        {/* <CustomMobileLink toggle={handleClick} className="ml-4 lg:m-0 lg:my-2" href="/articles" title="Articles" /> */}
       </nav>
       <nav
         className="flex items-center justify-center  mt-2
       "
       >
-        <motion.a
+        {/* <motion.a
           target={"_blank"}
           className="w-6 m-1 mr-3 sm:mx-1"
           href="#"
@@ -194,7 +195,7 @@ const Navbar = () => {
           aria-label="Checkout my twitter profile"
         >
           <TwitterIcon />
-        </motion.a>
+        </motion.a> */}
         <motion.a
           target={"_blank"}
           className="w-6 m-1 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
@@ -215,7 +216,8 @@ const Navbar = () => {
         >
           <LinkedInIcon />
         </motion.a>
-        <motion.a
+
+        {/* <motion.a
           target={"_blank"}
           className="w-6 m-1 mx-3 bg-light rounded-full sm:mx-1"
           href="#"
@@ -224,8 +226,9 @@ const Navbar = () => {
           aria-label="Checkout my pinterest profile"
         >
           <PinterestIcon />
-        </motion.a>
-        <motion.a
+        </motion.a> */}
+
+        {/* <motion.a
           target={"_blank"}
           className="w-6 m-1 mx-3 sm:mx-1"
           href="#"
@@ -234,7 +237,7 @@ const Navbar = () => {
           aria-label="Checkout my dribbble profile"
         >
           <DribbbleIcon />
-        </motion.a>
+        </motion.a> */}
 
         <button
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
