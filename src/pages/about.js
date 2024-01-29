@@ -58,23 +58,25 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m <strong>CodeBucks</strong>, a web developer and
-                UI/UX designer with a passion for creating beautiful,
-                functional, and user-centered digital experiences. With 4 years
-                of experience in the field. I am always looking for new and
-                innovative ways to bring my clients&apos; visions to life.
+                Hi, I&apos;m <strong>Enrique</strong>, a Software Developer and
+                Physicist whose approach marries analytical rigor with customer-centric design. 
+                My passion lies in diving deep into the intricacies of both code and 
+                user experience to deliver digital solutions that not only meet but 
+                exceed expectations.
               </p>
               <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty – it&apos;s about solving problems and creating
-                intuitive, enjoyable experiences for users.
+                In my journey over the past 4+ years, I&apos;ve embraced a &apos;Think Big, Go Far&apos;
+                philosophy, taking on projects that challenge the status quo and push 
+                the boundaries of technology and innovation. Whether it&apos;s through meticulous 
+                data analysis or crafting user interfaces that resonate on a personal level, 
+                my goal is to create digital experiences that are not just functional, 
+                but also transformative.
               </p>
               <p className="font-medium">
-                Whether I&apos;m working on a website, mobile app, or other
-                digital product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                I&apos;m committed to understanding the core needs of clients and 
+                their audiences, ensuring that every project is a step towards a 
+                more intuitive and impactful digital world. Let&apos;s embark on a 
+                journey to realize your vision and elevate it to new heights.
               </p>
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
@@ -98,13 +100,14 @@ export default function About() {
             </div>
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row 
             xl:items-center md:order-3">
-              <div className="flex flex-col items-end justify-center xl:items-center">
+              
+             <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={40} />+
+                  <AnimatedNumberFramerMotion value={30} />+
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  satisfied clients
+                  Innovations Crafted
                 </h2>
               </div>
 
@@ -127,6 +130,7 @@ export default function About() {
                   Years of experience
                 </h2>
               </div>
+
             </div>
           </div>
 
