@@ -44,7 +44,7 @@ export default function Home() {
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              Delving into the universe of programming and physics, I craft digital solutions that embody precision, creativity, and the relentless pursuit of knowledge. Explore my projects showcasing my expertise web development and data science.
+              Delving into the universe of programming and physics, I craft digital solutions that embody precision, creativity, and the relentless pursuit of knowledge. Explore my projects showcasing my expertise in web development and data science.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
