@@ -61,58 +61,63 @@ const Experience = () => {
             style={{ scaleY: scrollYProgress }}
           />
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+            
             <Details
-              position="Software Engineer"
-              company="Google"
-              companyLink="https://google.com"
-              time="2022-Present"
-              address="Mountain View, CA"
-              work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+              position="Software Developer Engineer Intern"
+              company="Amazon AWS"
+              companyLink=""
+              time="2023 Summer"
+              address="Austin, TX."
+              work="
+              Pioneered an agile latency tracking framework for the AWS Redshift console, impacting 100+ pages
+              and inspiring other AWS console teams to adopt similar strategies for scalability. Enhanced latency metrics analytics accuracy by 55% using a TypeScript and React-based framework.
+              Developed custom PSQL queries and implemented TestCafe automation tests to validate the
+              framework's efficacy. Following Amazon’s test-driven development standard and design patterns."
             />
 
             <Details
-              position="Intern"
-              company="Facebook"
-              companyLink="https://facebook.com"
-              time="Summer 2021"
-              address="Menlo Park, CA."
-              work="Worked on a team responsible for developing a new mobile app
-              feature that allowed users to create and share short-form video
-              content, including designing and implementing a new user interface
-              and developing the backend infrastructure to support the feature."
+              position="Production & Software Engineering Fellowship"
+              company="Meta & MLH"
+              companyLink="https://fellowship.mlh.io/"
+              time="Summer 2022"
+              address="Remote"
+              work="
+              Mentored by Facebook engineers in Production Engineering and DevOps, successfully completing real-
+              world projects hosted by MLH.
+              Implemented and maintained CI/CD pipelines using GitHub Actions, encompassing redeployment to
+              rigorous unit testing.
+              Optimized application uptime and availability using a suite of technologies including Linux Systems,
+              Flask, Docker, VPS, and MySQL.
+              Developed a web 3.0 application using C++, interfacing with the Solana blockchain and managing
+              cryptocurrency wallets for an enhanced user experience."
             />
 
             <Details
-              position="Software Developer"
-              company="Amazon"
-              companyLink="https://amazon.com"
-              time="2020-2021"
-              address="Seattle, WA."
-              work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such as product recommendations and user reviews, and optimizing the app's performance and reliability."
+              position="Quantum Computing Researcher"
+              company="UT Austin"
+              companyLink="https://fri.cns.utexas.edu/research-streams/quantum-computing"
+              time="May 2022 - December 2022"
+              address="Austin, TX."
+              work="
+              Developed Python-based solutions for quantum communications, including the BB84 Quantum Key
+              Distribution Protocol and teleportation using entanglement principles.
+              Implemented foundational quantum algorithms in Python, such as Deutsch, Simon, Grover, and Shor,
+              demonstrating in-depth expertise in quantum computing applications.
+              Automated simulation experiments and visually presented data results using Python & JavaScript,
+              streamlining research processes and insights using pandas and networkx libraries."
             />
 
             <Details
-              position="Software Developer Intern"
-              company="Microsoft"
-              companyLink="https://microsoft.com"
-              time="Summer 2019"
-              address="Redmond, WA."
-              work="Worked on a team responsible for developing new features for
-              Microsoft's Windows operating system, including implementing a new
-              user interface for a system settings panel and optimizing the
-              performance of a core system component."
+              position="Lead Programmer"
+              company="FRC Robotics, Team 5572"
+              companyLink="https://frc5572.org/"
+              time="2018 - 2020"
+              address="San Antonio, TX."
+              work="
+              Programed computer vision systems with OpenCV to guide robots and shooting mechanisms to reach their targets.
+              Robots contained cameras, motors, pneumatics, accelerometers, ultrasonic sensors, limit switches, servos that all needed to be programmed"
             />
 
-            <Details
-              position="Teaching Assistant"
-              company="MIT"
-              companyLink="https://mit.edu"
-              time="Fall 2018"
-              address="Massachusetts Ave, Cambridge, MA."
-              work="Assisted in teaching a course on computer programming, held office
-              hours to help students with assignments, and graded exams and
-              assignments."
-            />
           </ul>
         </div>
         </div>
