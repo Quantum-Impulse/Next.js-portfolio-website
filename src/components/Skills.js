@@ -43,18 +43,17 @@ const Skills = () => {
         Web
       </motion.div>
 
-        <Skill name="HTML" x="-20vw" y="2vw" />
-
+          <Skill name="HTML" x="-20vw" y="2vw" />
           <Skill name="Python, C, C++" x="-5vw" y="-10vw" />
-          <Skill name="JavaScript, TypeScript" x="20vw" y="6vw" />
-          <Skill name="ReactJS" x="0vw" y="12vw" />
-          <Skill name="NextJS" x="-20vw" y="-15vw" />
-          <Skill name="GatsbyJS" x="15vw" y="-12vw" />
-          <Skill name="Github" x="-35vw" y="-5vw" />
-          <Skill name="Web Design" x="32vw" y="-5vw" />
-          <Skill name="Figma" x="0vw" y="-20vw" />
-          <Skill name="Firebase" x="-25vw" y="18vw" />
-          <Skill name="Tawilwind CSS" x="28vw" y="18vw" />
+          <Skill name="" x="20vw" y="6vw" />
+          <Skill name="TensorFlow" x="0vw" y="12vw" />
+          <Skill name="SQL/pSQL" x="-20vw" y="-15vw" />
+          <Skill name="Docker" x="15vw" y="-12vw" />
+          <Skill name="Git/Github Actions" x="-35vw" y="-5vw" />
+          <Skill name="Pandas, Numpy" x="32vw" y="-5vw" />
+          <Skill name="IBM Qiskit" x="0vw" y="-20vw" />
+          <Skill name="ReactJS/NextJS" x="-25vw" y="18vw" />
+          <Skill name="JavaScript, TypeScript" x="28vw" y="18vw" />
     </div></>
   );
 };
