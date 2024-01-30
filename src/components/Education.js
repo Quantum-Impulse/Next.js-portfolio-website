@@ -56,7 +56,8 @@ const Education = () => {
             type="Google IT Support Professional Certificate"
             time="September 2021"
             place="Google Coursera"
-            info=""
+            info="
+            | IT Support | Computer Networking | Operating Systems | System Administration | IT Security |"
           />
 
         </ul>
