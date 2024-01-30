@@ -180,7 +180,10 @@ export default function Projects() {
             text="Imagination Trumps Knowledge!"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
-          <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+        <h2 className="my-2 w-full text-left text-4xl font-bold lg:text-3xl xs:text-2xl">
+            Coming Soon...!
+          </h2>
+          {/* <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
                 type="Featured Project"
@@ -237,7 +240,7 @@ export default function Projects() {
                 github="https://github.com/codebucks27"
               />
             </div>
-          </div>
+          </div> */}
         </Layout>
       </main>
     </>
