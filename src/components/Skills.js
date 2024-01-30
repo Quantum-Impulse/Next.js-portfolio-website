@@ -43,9 +43,9 @@ const Skills = () => {
         Web
       </motion.div>
 
-          <Skill name="HTML" x="-20vw" y="2vw" />
+          <Skill name="Bash" x="-20vw" y="2vw" />
           <Skill name="Python, C, C++" x="-5vw" y="-10vw" />
-          <Skill name="" x="20vw" y="6vw" />
+          <Skill name="CI/CD" x="20vw" y="6vw" />
           <Skill name="TensorFlow" x="0vw" y="12vw" />
           <Skill name="SQL/pSQL" x="-20vw" y="-15vw" />
           <Skill name="Docker" x="15vw" y="-12vw" />
